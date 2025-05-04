@@ -217,7 +217,7 @@ wheels = [
 
 [[package]]
 name = "dagster-qcloud-cos"
-version = "0.1.0a6"
+version = "0.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "anyio" },
@@ -233,15 +233,15 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "anyio", specifier = "==4.8.0" },
+    { name = "anyio" },
     { name = "cos-python-sdk-v5" },
     { name = "dagster" },
-    { name = "docstring-parser", specifier = "==0.16" },
-    { name = "httpx", specifier = "==1.0.0b0" },
-    { name = "pydantic", specifier = "==2.11.0a2" },
-    { name = "rx", specifier = "==3.2.0" },
-    { name = "tzlocal", specifier = "==5.3" },
-    { name = "watchdog", specifier = "==6.0.0" },
+    { name = "docstring-parser" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "rx" },
+    { name = "tzlocal" },
+    { name = "watchdog" },
 ]
 
 [[package]]
